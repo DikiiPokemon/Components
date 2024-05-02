@@ -1,0 +1,33 @@
+.ParallaxWrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    max-width: 1920px;
+    width: 90%;
+
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+
+    box-shadow: 0 1px 29px 0 #e5ecf2;
+}
+
+.atropos-banner{
+    position: relative;
+    width: 100%;
+}
+
+.atropos-banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+.BacgroundParallax{
+    position: unset !important;
+    height: 100%;
+    width: 100%;
+}

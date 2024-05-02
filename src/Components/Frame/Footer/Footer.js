@@ -20,7 +20,7 @@ const  Footer = () => {
             <div className="ContentWrappFooter">
                 <a href="#Example1" className="FooterLink">Example1</a>
                 <a href="#Example2" className="FooterLink">Example2</a>
-                <a className="FooterLink">Example3</a>
+                <a href="#Example3" className="FooterLink">Example3</a>
                 <a className="FooterLink">Example4</a>
             </div>
             <div className="ContentWrappFooter">

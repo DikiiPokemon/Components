@@ -16,7 +16,7 @@ const Header = () => {
             <div className="MiddlePartHeader">
                 <a href="#Example1" className="LinkToContent">Example1</a>
                 <a href="#Example2" className="LinkToContent">Example2</a>
-                <a className="LinkToContent">Example3</a>
+                <a href="#Example3" className="LinkToContent">Example3</a>
                 <a className="LinkToContent">Example4</a>
             </div>
             <div className={`RightPartHeader ${openBurgerMenu ? "Active" : ""}`} onClick={() => setOpenBurgerMenu(!openBurgerMenu)}>
