@@ -1,0 +1,52 @@
+.InfoBlockWrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 20px;
+    padding: 40px;
+    margin: 0 20px;
+
+    border-radius: 20px;
+
+    max-width: 1920px;
+    width: 90%;
+
+
+    box-shadow: 0 1px 29px 0 #e5ecf2;
+
+    overflow: hidden;
+}
+
+.informationBlockHeader{
+    font-size: 28px;
+}
+
+.ContentInformation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    
+
+    gap: 10px;
+}
+
+.WrappForImage{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.WrappForImage img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.WrappForContent{
+    max-width: 50%;
+}

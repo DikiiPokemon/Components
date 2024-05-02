@@ -1,0 +1,115 @@
+.HeaderWrapper{
+    max-width: 1920px;
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 0 20px;
+    box-shadow: 0 1px 29px 0 #e5ecf2;
+    
+}
+
+.LeftPartHeader{
+    max-width: 400px;
+    height: 100%;
+}
+
+.MiddlePartHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.HeaderWrapper a{
+    cursor: pointer;
+
+}
+
+.LinkToContent:hover{
+    color:aqua;
+}
+
+.RightPartHeader{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 20px;
+    height: 40px;
+    gap: 5px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+    
+}
+
+.RightPartHeader::before{
+    position: absolute;
+    content: " ";
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    background: black;
+    transition: 0.5s;
+}
+
+.RightPartHeader span{
+    content: " ";
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    background: black;
+    transition: 0.5s;
+}
+
+.RightPartHeader::after{
+    position: absolute;
+    content: " ";
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    background: black;
+    transition: 0.5s;
+}
+
+.RightPartHeader.Active::before{
+    transform: rotate(45deg);
+    transition: 0.5s;
+    top: 50%;
+
+}
+
+.RightPartHeader.Active::after{
+    transform: rotate(-45deg);
+    top: 50%;
+    transition: 0.5s;
+}
+
+.RightPartHeader.Active span{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+@media (max-width: 540px){
+    .RightPartHeader{
+        display: flex;
+    }
+
+
+    .MiddlePartHeader{
+        display: none;
+    }
+}
