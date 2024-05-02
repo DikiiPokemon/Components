@@ -18,8 +18,8 @@ const  Footer = () => {
                 <div className="ContentExample">© 2013 - 2023 Все права защищены</div>
             </div>
             <div className="ContentWrappFooter">
-                <a className="FooterLink">Example1</a>
-                <a className="FooterLink">Example2</a>
+                <a href="#Example1" className="FooterLink">Example1</a>
+                <a href="#Example2" className="FooterLink">Example2</a>
                 <a className="FooterLink">Example3</a>
                 <a className="FooterLink">Example4</a>
             </div>

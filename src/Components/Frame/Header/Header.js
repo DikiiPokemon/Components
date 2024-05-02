@@ -14,8 +14,8 @@ const Header = () => {
                 <a><Logo style={{width: "100%", height: "100%"}}/></a>
             </div>
             <div className="MiddlePartHeader">
-                <a className="LinkToContent">Example1</a>
-                <a className="LinkToContent">Example2</a>
+                <a href="#Example1" className="LinkToContent">Example1</a>
+                <a href="#Example2" className="LinkToContent">Example2</a>
                 <a className="LinkToContent">Example3</a>
                 <a className="LinkToContent">Example4</a>
             </div>

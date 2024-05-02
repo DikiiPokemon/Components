@@ -8,7 +8,8 @@ const InfoBlock =() => {
 
     return(
         <div className="InfoBlockWrapper">
-            <p className="informationBlockHeader">Header iformation Block</p>
+            <a id="Example1"></a>
+            <p className="informationBlockHeader">Example1</p>
             <div className="ContentInformation">
                 <div className="WrappForImage">
                     <img src="https://e22u.short.gy/KTU286" alt=""></img>

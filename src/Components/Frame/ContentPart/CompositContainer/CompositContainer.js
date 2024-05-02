@@ -7,8 +7,9 @@ const CompositContainer = () => {
 
     return(
         <div className="CompositWrapper">
+            <a id="Example2"></a>
             <div className="CompositItemWrapper">
-                <p className="informationBlockHeader">Header iformation Block</p>
+                <p className="informationBlockHeader">Example2</p>
                 <div className="ContentComposit">
                     <div className="WrappForImageComposit">
                         <img src="https://e22u.short.gy/KTU286" alt=""></img>
@@ -17,7 +18,7 @@ const CompositContainer = () => {
                 </div>
             </div>
             <div className="CompositItemWrapper">
-                <p className="informationBlockHeader">Header iformation Block</p>
+                <p className="informationBlockHeader">Example2</p>
                 <div className="ContentComposit">
                     <div className="WrappForImageComposit">
                         <img src="https://e22u.short.gy/KTU286" alt=""></img>
@@ -26,7 +27,7 @@ const CompositContainer = () => {
                 </div>
             </div>
             <div className="CompositItemWrapper">
-                <p className="informationBlockHeader">Header iformation Block</p>
+                <p className="informationBlockHeader">Example2</p>
                 <div className="ContentComposit">
                     <div className="WrappForImageComposit">
                         <img src="https://e22u.short.gy/KTU286" alt=""></img>
@@ -35,7 +36,7 @@ const CompositContainer = () => {
                 </div>
             </div>
             <div className="CompositItemWrapper">
-                <p className="informationBlockHeader">Header iformation Block</p>
+                <p className="informationBlockHeader">Example2</p>
                 <div className="ContentComposit">
                     <div className="WrappForImageComposit">
                         <img src="https://e22u.short.gy/KTU286" alt=""></img>
