@@ -1,0 +1,29 @@
+.SliderBlockWrapper{
+    overflow: hidden;
+
+    width: 100%;
+    max-width: 1920px;
+
+    padding: 21px;
+    border-radius: 20px;
+    box-shadow: 0 1px 29px 0 #e5ecf2;
+}
+
+.carousel-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.carousel-item{
+    padding-right: 10px;
+   
+}
+
+@media (max-width: 1440px){
+    .SliderBlockWrapper{
+        padding: 22px;
+    }
+}

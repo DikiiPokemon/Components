@@ -59,7 +59,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    border-radius: 20px;
+    border-radius: 1000px;
     background: black;
     transition: 0.5s;
 }
@@ -68,7 +68,7 @@
     content: " ";
     width: 100%;
     height: 3px;
-    border-radius: 20px;
+    border-radius: 1000px;
     background: black;
     transition: 0.5s;
 }
@@ -80,7 +80,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    border-radius: 20px;
+    border-radius: 1000px;
     background: black;
     transition: 0.5s;
 }
