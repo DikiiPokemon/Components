@@ -20,7 +20,7 @@
     flex-direction: column;
 
     width: fit-content;
-    min-width: 500px;
+    min-width: 320px;
     flex: 1 1 30%;
 
     box-shadow: 0 1px 29px 0 #e5ecf2;
